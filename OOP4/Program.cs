@@ -17,10 +17,12 @@ namespace OOP4
 
             ILogerService databaseLoggerService = new DatabaseLoggerService();
             ILogerService fileLogerService = new FileLoggerService();
+
+            
             
 
             BasvuruManager basvuruManager = new BasvuruManager();
-            basvuruManager.BasvuruYap(esnafKrediManager, new SmsLogerService());
+            basvuruManager.BasvuruYap(esnafKrediManager, new List<ILogerService> { new SmsLogerService(),new  DatabaseLoggerService() });
 
             List<IKrediManager> krediler = new List<IKrediManager>() { esnafKrediManager , tasitKrediManager }; 
             // liste olusturup listeye ekliyoruz talepleri //
