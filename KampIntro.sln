@@ -47,13 +47,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo1\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "İnterfaceses", "İnterfaceses\İnterfaceses.csproj", "{263258AB-8A04-4B43-99BE-88E8A35C54F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{1CCD8F3E-82B6-4A95-8CB3-554B23E535F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{1CCD8F3E-82B6-4A95-8CB3-554B23E535F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{CB59DCBD-139A-4B47-890C-88DF82F74005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{CB59DCBD-139A-4B47-890C-88DF82F74005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaceses2", "Interfaceses\Interfaceses2.csproj", "{141FD650-1AB8-495F-9DC7-72764CAB154E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaceses2", "Interfaceses\Interfaceses2.csproj", "{141FD650-1AB8-495F-9DC7-72764CAB154E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{190E0BE4-80FE-4453-978E-34E52424954B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{190E0BE4-80FE-4453-978E-34E52424954B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{3B805200-2BA9-472A-A8E7-B05C15A89C7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{190E0BE4-80FE-4453-978E-34E52424954B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{190E0BE4-80FE-4453-978E-34E52424954B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{190E0BE4-80FE-4453-978E-34E52424954B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B805200-2BA9-472A-A8E7-B05C15A89C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B805200-2BA9-472A-A8E7-B05C15A89C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B805200-2BA9-472A-A8E7-B05C15A89C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B805200-2BA9-472A-A8E7-B05C15A89C7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
